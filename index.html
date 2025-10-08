@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer"> <!-- Blocks all referrals by not sending referrer headers -->
+    <meta http-equiv="refresh" content="5;url=https://jitterspauperusher.com/2086354/"> <!-- Redirects after 5 seconds -->
+    <title>My Public Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Simple font */
+            text-align: center; /* Centers everything */
+            padding: 50px; /* Adds space around the content */
+            background-color: #f0f0f0; /* Light gray background for the page */
+        }
+        .yes {
+            font-weight: bold; /* Makes text bold */
+            font-size: 48px; /* Large text size */
+            background-color: green; /* Green background */
+            color: white; /* White text */
+            padding: 20px; /* Space inside the box */
+            margin: 20px; /* Space outside the box */
+            display: inline-block; /* Keeps them side-by-side if possible */
+            border-radius: 10px; /* Rounded corners for a nicer look */
+        }
+        .no {
+            font-weight: bold;
+            font-size: 48px;
+            background-color: red; /* Red background */
+            color: white;
+            padding: 20px;
+            margin: 20px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Landing Page</h1>
+    <p>This page is public and will automatically redirect in 5 seconds.</p>
+    <div class="yes">YES</div>
+    <div class="no">NO</div>
 
+    <script>
+        // JavaScript fallback for the redirect (runs after 5000ms = 5 seconds)
+        setTimeout(function() {
+            window.location.href = "https://jitterspauperusher.com/2086354/";
+        }, 5000);
+    </script>
+</body>
+</html>
